@@ -1,0 +1,7 @@
+Running: xsim.dir/EX4_Frequency_divider_sourcecode_behav/xsimk.exe -simmode gui -wdb EX4_Frequency_divider_sourcecode_behav.wdb -simrunnum 0 -socket 49797
+Design successfully loaded
+Design Loading Memory Usage: 7024 KB (Peak: 7024 KB)
+Design Loading CPU Usage: 0 ms
+Simulation completed
+Simulation Memory Usage: 7496 KB (Peak: 7496 KB)
+Simulation CPU Usage: 0 ms

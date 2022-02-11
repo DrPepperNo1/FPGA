@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="simcounter0_11_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="simcounter0_11" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="127.280 ns"></ZoomStartTime>
+      <ZoomEndTime time="431.281 ns"></ZoomEndTime>
+      <Cursor1Time time="1,000.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="141"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="4" />
+   <wvobject fp_name="/simcounter0_11/clki" type="logic">
+      <obj_property name="ElementShortName">clki</obj_property>
+      <obj_property name="ObjectShortName">clki</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simcounter0_11/rsti" type="logic">
+      <obj_property name="ElementShortName">rsti</obj_property>
+      <obj_property name="ObjectShortName">rsti</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simcounter0_11/outp" type="logic">
+      <obj_property name="ElementShortName">outp</obj_property>
+      <obj_property name="ObjectShortName">outp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/simcounter0_11/counter0_10/out_tem" type="array">
+      <obj_property name="ElementShortName">out_tem[3:0]</obj_property>
+      <obj_property name="ObjectShortName">out_tem[3:0]</obj_property>
+   </wvobject>
+</wave_config>

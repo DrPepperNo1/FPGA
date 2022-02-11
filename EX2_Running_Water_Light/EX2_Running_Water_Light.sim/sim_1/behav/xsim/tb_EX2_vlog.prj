@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../EX2_Running_Water_Light.srcs/sources_1/new/PWM.v" \
+"../../../../EX2_Running_Water_Light.srcs/sources_1/new/RunningWaterLight.v" \
+"../../../../EX2_Running_Water_Light.srcs/sources_1/new/decoder.v" \
+"../../../../EX2_Running_Water_Light.srcs/sources_1/new/flowclock_generater.v" \
+"../../../../EX2_Running_Water_Light.srcs/sim_1/new/tb_EX2.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
