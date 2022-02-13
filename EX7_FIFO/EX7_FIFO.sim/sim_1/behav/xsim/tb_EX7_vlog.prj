@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../EX7_FIFO.srcs/sources_1/new/EX7_FIFO_RAM.v" \
+"../../../../EX7_FIFO.srcs/sources_1/new/EX7_FIFO_ReadEmpty.v" \
+"../../../../EX7_FIFO.srcs/sources_1/new/EX7_FIFO_Synchronization.v" \
+"../../../../EX7_FIFO.srcs/sources_1/new/EX7_FIFO_WriteFull.v" \
+"../../../../EX7_FIFO.srcs/sources_1/new/EX7_FIFO_top.v" \
+"../../../../EX7_FIFO.srcs/sim_1/new/tb_EX7.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
