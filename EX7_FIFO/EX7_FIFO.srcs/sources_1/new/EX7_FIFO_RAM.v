@@ -14,7 +14,8 @@ module FIFO_RAM
     input [FIFO_addr_size-1:0] r_addr,//RAM内的读地址，也已转换为格雷码编码
     output reg [FIFO_data_size-1:0] data_out
 );
-    reg [FIFO_data_size-1:0] mem [FIFO_addr_size-1:0];
+    //reg [FIFO_data_size-1:0] mem [FIFO_addr_size-1:0]; 深度只有0~3，但是地址编码范围是0~15
+    reg [FIFO_data_size-1:0] mem [15:0];
     integer i;
     always@(posedge clk_w or negedge rstn_w)//写入
     begin
@@ -27,8 +28,10 @@ module FIFO_RAM
             mem[w_addr] <= data_in;
         else
         begin
-            for(i=0;i<FIFO_addr_size;i=i+1)
-                mem[i] <= {FIFO_data_size{1'b0}}; 
+            mem[w_addr] <= mem[w_addr] + 0;
+            //for(i=0;i<FIFO_addr_size;i=i+1)
+                //mem[i] <= {FIFO_data_size{1'b0}}; 
+               // mem[i] <= mem[i] + 0;
         end  
     end
     
@@ -39,6 +42,7 @@ module FIFO_RAM
         else if((read_empty==0)&&(read_en==1))
             data_out <= mem[r_addr];
         else
-            data_out <= {FIFO_data_size{1'b0}};
+            //data_out <= {FIFO_data_size{1'b0}};
+            data_out <= data_out + 0;
     end
 endmodule

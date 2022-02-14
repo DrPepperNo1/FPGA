@@ -29,7 +29,7 @@ module FIFO_ReadEmpty
     
     always@(*)
     begin
-        r_pointer <= (r_pointer_bin>>1)^r_pointer_bin;
+        r_pointer = (r_pointer_bin>>1)^r_pointer_bin;
     end
     
     always@(posedge clk_r)

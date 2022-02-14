@@ -22,8 +22,8 @@
 module FIFO_Synchronization
     #(parameter FIFO_addr_size = 4,parameter FIFO_data_size = 16)
     (
-    input [FIFO_data_size:0] din,
-    output reg [FIFO_data_size:0] dout,
+    input [FIFO_addr_size:0] din,
+    output reg [FIFO_addr_size:0] dout,
     input rstn,
     input clk
     );
