@@ -2,12 +2,12 @@
 # Vivado v2021.2.1 (64-bit)
 # SW Build 3414424 on Sun Dec 19 10:57:22 MST 2021
 # IP Build 3405791 on Sun Dec 19 15:54:35 MST 2021
-# Start of session at: Fri Feb  4 23:56:36 2022
-# Process ID: 50476
-# Current directory: G:/Vivadoprojects/EX2_Running_Water_Light/EX2_Running_Water_Light.runs/synth_1
+# Start of session at: Tue Feb 15 23:16:14 2022
+# Process ID: 8800
+# Current directory: G:/Vivadoprojects/Tasks_2022-1_2022-2/EX2_Running_Water_Light/EX2_Running_Water_Light.runs/synth_1
 # Command line: vivado.exe -log RunningWaterLight.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source RunningWaterLight.tcl
-# Log file: G:/Vivadoprojects/EX2_Running_Water_Light/EX2_Running_Water_Light.runs/synth_1/RunningWaterLight.vds
-# Journal file: G:/Vivadoprojects/EX2_Running_Water_Light/EX2_Running_Water_Light.runs/synth_1\vivado.jou
+# Log file: G:/Vivadoprojects/Tasks_2022-1_2022-2/EX2_Running_Water_Light/EX2_Running_Water_Light.runs/synth_1/RunningWaterLight.vds
+# Journal file: G:/Vivadoprojects/Tasks_2022-1_2022-2/EX2_Running_Water_Light/EX2_Running_Water_Light.runs/synth_1\vivado.jou
 # Running On: TxT, OS: Windows, CPU Frequency: 2688 MHz, CPU Physical cores: 6, Host memory: 16906 MB
 #-----------------------------------------------------------
 source RunningWaterLight.tcl -notrace

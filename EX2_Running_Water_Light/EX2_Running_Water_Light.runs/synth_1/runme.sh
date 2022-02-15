@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='G:/Vivadoprojects/EX2_Running_Water_Light/EX2_Running_Water_Light.runs/synth_1'
+HD_PWD='G:/Vivadoprojects/Tasks_2022-1_2022-2/EX2_Running_Water_Light/EX2_Running_Water_Light.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

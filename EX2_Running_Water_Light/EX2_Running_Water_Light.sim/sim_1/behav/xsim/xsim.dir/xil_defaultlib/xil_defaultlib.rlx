@@ -2,9 +2,10 @@
 2020.2
 Dec 19 2021
 11:27:32
-G:/Vivadoprojects/EX2_Running_Water_Light/EX2_Running_Water_Light.sim/sim_1/behav/xsim/glbl.v,1634335545,verilog,,,,glbl,,,,,,,,
-G:/Vivadoprojects/EX2_Running_Water_Light/EX2_Running_Water_Light.srcs/sim_1/new/tb_EX2.v,1643978329,verilog,,,,tb_EX2,,,,,,,,
-G:/Vivadoprojects/EX2_Running_Water_Light/EX2_Running_Water_Light.srcs/sources_1/new/PWM.v,1643988099,verilog,,G:/Vivadoprojects/EX2_Running_Water_Light/EX2_Running_Water_Light.srcs/sources_1/new/RunningWaterLight.v,,PWM,,,,,,,,
-G:/Vivadoprojects/EX2_Running_Water_Light/EX2_Running_Water_Light.srcs/sources_1/new/RunningWaterLight.v,1643989812,verilog,,G:/Vivadoprojects/EX2_Running_Water_Light/EX2_Running_Water_Light.srcs/sources_1/new/decoder.v,,RunningWaterLight,,,,,,,,
-G:/Vivadoprojects/EX2_Running_Water_Light/EX2_Running_Water_Light.srcs/sources_1/new/decoder.v,1643968713,verilog,,G:/Vivadoprojects/EX2_Running_Water_Light/EX2_Running_Water_Light.srcs/sources_1/new/flowclock_generater.v,,decoder,,,,,,,,
-,,,,G:/Vivadoprojects/EX2_Running_Water_Light/EX2_Running_Water_Light.srcs/sim_1/new/tb_EX2.v,,flowclock_generater,,,,,,,,
+G:/Vivadoprojects/Tasks_2022-1_2022-2/EX2_Running_Water_Light/EX2_Running_Water_Light.sim/sim_1/behav/xsim/glbl.v,1634335545,verilog,,,,glbl,,,,,,,,
+G:/Vivadoprojects/Tasks_2022-1_2022-2/EX2_Running_Water_Light/EX2_Running_Water_Light.srcs/sim_1/new/tb_EX2.v,1643978329,verilog,,,,tb_EX2,,,,,,,,
+G:/Vivadoprojects/Tasks_2022-1_2022-2/EX2_Running_Water_Light/EX2_Running_Water_Light.srcs/sources_1/new/CompareSignal.v,1644937171,verilog,,G:/Vivadoprojects/Tasks_2022-1_2022-2/EX2_Running_Water_Light/EX2_Running_Water_Light.srcs/sources_1/new/PWM.v,,CompareSignal,,,,,,,,
+G:/Vivadoprojects/Tasks_2022-1_2022-2/EX2_Running_Water_Light/EX2_Running_Water_Light.srcs/sources_1/new/PWM.v,1644937168,verilog,,G:/Vivadoprojects/Tasks_2022-1_2022-2/EX2_Running_Water_Light/EX2_Running_Water_Light.srcs/sources_1/new/RunningWaterLight.v,,PWM,,,,,,,,
+G:/Vivadoprojects/Tasks_2022-1_2022-2/EX2_Running_Water_Light/EX2_Running_Water_Light.srcs/sources_1/new/RunningWaterLight.v,1643989812,verilog,,G:/Vivadoprojects/Tasks_2022-1_2022-2/EX2_Running_Water_Light/EX2_Running_Water_Light.srcs/sources_1/new/decoder.v,,RunningWaterLight,,,,,,,,
+G:/Vivadoprojects/Tasks_2022-1_2022-2/EX2_Running_Water_Light/EX2_Running_Water_Light.srcs/sources_1/new/decoder.v,1643968713,verilog,,G:/Vivadoprojects/Tasks_2022-1_2022-2/EX2_Running_Water_Light/EX2_Running_Water_Light.srcs/sources_1/new/flowclock_generater.v,,decoder,,,,,,,,
+G:/Vivadoprojects/Tasks_2022-1_2022-2/EX2_Running_Water_Light/EX2_Running_Water_Light.srcs/sources_1/new/flowclock_generater.v,1644931262,verilog,,G:/Vivadoprojects/Tasks_2022-1_2022-2/EX2_Running_Water_Light/EX2_Running_Water_Light.srcs/sim_1/new/tb_EX2.v,,flowclock_generater,,,,,,,,

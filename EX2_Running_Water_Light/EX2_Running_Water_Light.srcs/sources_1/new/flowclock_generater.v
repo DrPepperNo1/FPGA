@@ -25,7 +25,7 @@ module flowclock_generater(
     output reg out_slowclk
     );
     reg [23:0] counter;
-    parameter max = 24'h0fffff;
+    parameter max = 24'h9fffff;
     always@(posedge clk or negedge rstn)
     begin
         if(!rstn)

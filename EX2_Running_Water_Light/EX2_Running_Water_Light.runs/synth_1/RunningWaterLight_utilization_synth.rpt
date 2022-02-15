@@ -1,7 +1,7 @@
 Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2021.2.1 (win64) Build 3414424 Sun Dec 19 10:57:22 MST 2021
-| Date         : Fri Feb  4 23:56:57 2022
+| Date         : Tue Feb 15 23:17:09 2022
 | Host         : TxT running 64-bit major release  (build 9200)
 | Command      : report_utilization -file RunningWaterLight_utilization_synth.rpt -pb RunningWaterLight_utilization_synth.pb
 | Design       : RunningWaterLight
@@ -31,11 +31,11 @@ Table of Contents
 +-------------------------+------+-------+------------+-----------+-------+
 |        Site Type        | Used | Fixed | Prohibited | Available | Util% |
 +-------------------------+------+-------+------------+-----------+-------+
-| Slice LUTs*             |   62 |     0 |          0 |     17600 |  0.35 |
-|   LUT as Logic          |   62 |     0 |          0 |     17600 |  0.35 |
+| Slice LUTs*             |   80 |     0 |          0 |     17600 |  0.45 |
+|   LUT as Logic          |   80 |     0 |          0 |     17600 |  0.45 |
 |   LUT as Memory         |    0 |     0 |          0 |      6000 |  0.00 |
-| Slice Registers         |   48 |     0 |          0 |     35200 |  0.14 |
-|   Register as Flip Flop |   47 |     0 |          0 |     35200 |  0.13 |
+| Slice Registers         |   55 |     0 |          0 |     35200 |  0.16 |
+|   Register as Flip Flop |   54 |     0 |          0 |     35200 |  0.15 |
 |   Register as Latch     |    1 |     0 |          0 |     35200 | <0.01 |
 | F7 Muxes                |    0 |     0 |          0 |      8800 |  0.00 |
 | F8 Muxes                |    0 |     0 |          0 |      4400 |  0.00 |
@@ -55,10 +55,10 @@ Table of Contents
 | 0     |            _ |         Set |            - |
 | 0     |            _ |       Reset |            - |
 | 0     |          Yes |           - |            - |
-| 1     |          Yes |           - |          Set |
-| 47    |          Yes |           - |        Reset |
+| 9     |          Yes |           - |          Set |
+| 45    |          Yes |           - |        Reset |
 | 0     |          Yes |         Set |            - |
-| 0     |          Yes |       Reset |            - |
+| 1     |          Yes |       Reset |            - |
 +-------+--------------+-------------+--------------+
 
 
@@ -147,17 +147,19 @@ Table of Contents
 +----------+------+---------------------+
 | Ref Name | Used | Functional Category |
 +----------+------+---------------------+
-| FDCE     |   47 |        Flop & Latch |
-| LUT6     |   21 |                 LUT |
-| LUT4     |   19 |                 LUT |
-| LUT2     |   16 |                 LUT |
-| LUT3     |   10 |                 LUT |
-| CARRY4   |    9 |          CarryLogic |
+| FDCE     |   45 |        Flop & Latch |
+| LUT5     |   23 |                 LUT |
+| LUT4     |   21 |                 LUT |
+| LUT2     |   21 |                 LUT |
+| CARRY4   |   15 |          CarryLogic |
+| LUT6     |   13 |                 LUT |
+| LUT3     |    9 |                 LUT |
 | OBUF     |    8 |                  IO |
-| LUT5     |    5 |                 LUT |
-| LUT1     |    4 |                 LUT |
+| LUT1     |    8 |                 LUT |
+| FDPE     |    8 |        Flop & Latch |
 | IBUF     |    2 |                  IO |
 | LDPE     |    1 |        Flop & Latch |
+| FDRE     |    1 |        Flop & Latch |
 | BUFG     |    1 |               Clock |
 +----------+------+---------------------+
 
