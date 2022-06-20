@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2021.2.1 (64-bit)
+# SW Build 3414424 on Sun Dec 19 10:57:22 MST 2021
+# IP Build 3405791 on Sun Dec 19 15:54:35 MST 2021
+# Start of session at: Tue Mar  1 08:32:56 2022
+# Process ID: 23324
+# Current directory: G:/Vivadoprojects/Tasks_2022-1_2022-2/EX8_VendingMachines/EX8_VendingMachines.runs/impl_1
+# Command line: vivado.exe -log top.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source top.tcl -notrace
+# Log file: G:/Vivadoprojects/Tasks_2022-1_2022-2/EX8_VendingMachines/EX8_VendingMachines.runs/impl_1/top.vdi
+# Journal file: G:/Vivadoprojects/Tasks_2022-1_2022-2/EX8_VendingMachines/EX8_VendingMachines.runs/impl_1\vivado.jou
+# Running On: TxT, OS: Windows, CPU Frequency: 2688 MHz, CPU Physical cores: 6, Host memory: 16906 MB
+#-----------------------------------------------------------
+source top.tcl -notrace

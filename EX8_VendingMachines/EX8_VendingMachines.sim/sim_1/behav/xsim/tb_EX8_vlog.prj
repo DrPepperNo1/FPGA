@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../EX8_VendingMachines.srcs/sources_1/new/EX8_EdgeDetector.v" \
+"../../../../EX8_VendingMachines.srcs/sources_1/new/EX8_Judge.v" \
+"../../../../EX8_VendingMachines.srcs/sources_1/new/EX8_KeyInput.v" \
+"../../../../EX8_VendingMachines.srcs/sources_1/new/EX8_Result.v" \
+"../../../../EX8_VendingMachines.srcs/sources_1/new/top.v" \
+"../../../../EX8_VendingMachines.srcs/sim_1/new/tb_EX8.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

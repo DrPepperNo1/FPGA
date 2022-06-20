@@ -1,0 +1,285 @@
+
+*** Running vivado
+    with args -log top.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source top.tcl
+
+
+
+****** Vivado v2021.2.1 (64-bit)
+  **** SW Build 3414424 on Sun Dec 19 10:57:22 MST 2021
+  **** IP Build 3405791 on Sun Dec 19 15:54:35 MST 2021
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+source top.tcl -notrace
+Command: read_checkpoint -auto_incremental -incremental G:/Vivadoprojects/Tasks_2022-1_2022-2/EX8_VendingMachines/EX8_VendingMachines.srcs/utils_1/imports/synth_1/top.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from G:/Vivadoprojects/Tasks_2022-1_2022-2/EX8_VendingMachines/EX8_VendingMachines.srcs/utils_1/imports/synth_1/top.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top top -part xc7z010clg400-2
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Device 21-403] Loading part xc7z010clg400-2
+WARNING: [Designutils 20-4072] Reference run did not run incremental synthesis because the design is too small; reverting to default synthesis
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 19168
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1270.438 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top' [G:/Vivadoprojects/Tasks_2022-1_2022-2/EX8_VendingMachines/EX8_VendingMachines.srcs/sources_1/new/top.v:23]
+INFO: [Synth 8-6157] synthesizing module 'EX8_Judge' [G:/Vivadoprojects/Tasks_2022-1_2022-2/EX8_VendingMachines/EX8_VendingMachines.srcs/sources_1/new/EX8_Judge.v:23]
+INFO: [Synth 8-6157] synthesizing module 'EX8_KeyInput' [G:/Vivadoprojects/Tasks_2022-1_2022-2/EX8_VendingMachines/EX8_VendingMachines.srcs/sources_1/new/EX8_KeyInput.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'EX8_KeyInput' (1#1) [G:/Vivadoprojects/Tasks_2022-1_2022-2/EX8_VendingMachines/EX8_VendingMachines.srcs/sources_1/new/EX8_KeyInput.v:23]
+INFO: [Synth 8-6157] synthesizing module 'EX8_EdgeDetector' [G:/Vivadoprojects/Tasks_2022-1_2022-2/EX8_VendingMachines/EX8_VendingMachines.srcs/sources_1/new/EX8_EdgeDetector.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'EX8_EdgeDetector' (2#1) [G:/Vivadoprojects/Tasks_2022-1_2022-2/EX8_VendingMachines/EX8_VendingMachines.srcs/sources_1/new/EX8_EdgeDetector.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'EX8_Judge' (3#1) [G:/Vivadoprojects/Tasks_2022-1_2022-2/EX8_VendingMachines/EX8_VendingMachines.srcs/sources_1/new/EX8_Judge.v:23]
+INFO: [Synth 8-6157] synthesizing module 'EX8_Result' [G:/Vivadoprojects/Tasks_2022-1_2022-2/EX8_VendingMachines/EX8_VendingMachines.srcs/sources_1/new/EX8_Result.v:22]
+INFO: [Synth 8-155] case statement is not full and has no default [G:/Vivadoprojects/Tasks_2022-1_2022-2/EX8_VendingMachines/EX8_VendingMachines.srcs/sources_1/new/EX8_Result.v:50]
+INFO: [Synth 8-6155] done synthesizing module 'EX8_Result' (4#1) [G:/Vivadoprojects/Tasks_2022-1_2022-2/EX8_VendingMachines/EX8_VendingMachines.srcs/sources_1/new/EX8_Result.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'top' (5#1) [G:/Vivadoprojects/Tasks_2022-1_2022-2/EX8_VendingMachines/EX8_VendingMachines.srcs/sources_1/new/top.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1270.438 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1270.438 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1270.438 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1270.438 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [G:/Vivadoprojects/Tasks_2022-1_2022-2/EX8_VendingMachines/EX8_VendingMachines.srcs/constrs_1/new/ex8.xdc]
+Finished Parsing XDC File [G:/Vivadoprojects/Tasks_2022-1_2022-2/EX8_VendingMachines/EX8_VendingMachines.srcs/constrs_1/new/ex8.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [G:/Vivadoprojects/Tasks_2022-1_2022-2/EX8_VendingMachines/EX8_VendingMachines.srcs/constrs_1/new/ex8.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1270.438 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.047 . Memory (MB): peak = 1270.438 ; gain = 0.000
+WARNING: [Designutils 20-4072] Reference run did not run incremental synthesis because the design is too small; reverting to default synthesis
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 1270.438 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 1270.438 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 1270.438 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'EX8_KeyInput'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'EX8_Judge'
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'EX8_Result'
+WARNING: [Synth 8-327] inferring latch for variable 'keyout_reg' [G:/Vivadoprojects/Tasks_2022-1_2022-2/EX8_VendingMachines/EX8_VendingMachines.srcs/sources_1/new/EX8_KeyInput.v:67]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+           INITIAL_STATE |                               00 |                               00
+             PRESS_STATE |                               01 |                               01
+           RELEASE_STATE |                               10 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'current_state_reg' using encoding 'sequential' in module 'EX8_KeyInput'
+WARNING: [Synth 8-327] inferring latch for variable 'clean_n_reg' [G:/Vivadoprojects/Tasks_2022-1_2022-2/EX8_VendingMachines/EX8_VendingMachines.srcs/sources_1/new/EX8_KeyInput.v:70]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                ZEROYUAN |                               00 |                               00
+                   OTHER |                               01 |                               11
+           POINTFIVEYUAN |                               10 |                               01
+                 ONEYUAN |                               11 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'current_state_reg' using encoding 'sequential' in module 'EX8_Judge'
+WARNING: [Synth 8-327] inferring latch for variable 'FSM_sequential_next_state_reg' [G:/Vivadoprojects/Tasks_2022-1_2022-2/EX8_VendingMachines/EX8_VendingMachines.srcs/sources_1/new/EX8_Result.v:53]
+WARNING: [Synth 8-327] inferring latch for variable 'FSM_onehot_next_state_reg' [G:/Vivadoprojects/Tasks_2022-1_2022-2/EX8_VendingMachines/EX8_VendingMachines.srcs/sources_1/new/EX8_Result.v:53]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    ZERO |                            00001 |                              000
+               POINTFIVE |                            00010 |                              001
+                     ONE |                            00100 |                              010
+            ONEPOINTFIVE |                            01000 |                              011
+                     TWO |                            10000 |                              100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'current_state_reg' using encoding 'one-hot' in module 'EX8_Result'
+WARNING: [Synth 8-327] inferring latch for variable 'FSM_onehot_next_state_reg' [G:/Vivadoprojects/Tasks_2022-1_2022-2/EX8_VendingMachines/EX8_VendingMachines.srcs/sources_1/new/EX8_Result.v:53]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1270.438 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 2     
++---Registers : 
+	               32 Bit    Registers := 2     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 9     
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 4     
+	   5 Input    5 Bit        Muxes := 1     
+	   4 Input    5 Bit        Muxes := 3     
+	   2 Input    5 Bit        Muxes := 2     
+	   5 Input    3 Bit        Muxes := 1     
+	   3 Input    2 Bit        Muxes := 2     
+	   2 Input    2 Bit        Muxes := 8     
+	   4 Input    2 Bit        Muxes := 1     
+	  20 Input    2 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 10    
+	   3 Input    1 Bit        Muxes := 9     
+	   5 Input    1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 1270.438 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 1270.438 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 1270.438 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 1270.438 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 1270.438 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 1270.438 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 1270.438 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 1270.438 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 1270.438 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 1270.438 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    24|
+|3     |LUT1   |     5|
+|4     |LUT2   |    66|
+|5     |LUT3   |     1|
+|6     |LUT4   |    29|
+|7     |LUT5   |    16|
+|8     |LUT6   |     7|
+|9     |FDRE   |   117|
+|10    |FDSE   |     1|
+|11    |LD     |     9|
+|12    |IBUF   |     3|
+|13    |OBUF   |     2|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 1270.438 ; gain = 0.000
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 6 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:13 ; elapsed = 00:00:19 . Memory (MB): peak = 1270.438 ; gain = 0.000
+Synthesis Optimization Complete : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 1270.438 ; gain = 0.000
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1270.438 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 33 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 2 inverter(s) to 2 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1270.438 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 9 instances were transformed.
+  LD => LDCE: 7 instances
+  LD => LDCE (inverted pins: G): 2 instances
+
+Synth Design complete, checksum: 1e98a0d9
+INFO: [Common 17-83] Releasing license: Synthesis
+36 Infos, 8 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 1270.438 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'G:/Vivadoprojects/Tasks_2022-1_2022-2/EX8_VendingMachines/EX8_VendingMachines.runs/synth_1/top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file top_utilization_synth.rpt -pb top_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Mar  1 08:32:48 2022...

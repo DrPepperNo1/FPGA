@@ -1,0 +1,12 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/Vivadoprojects/Tasks_2022-1_2022-2/EX8_VendingMachines/EX8_VendingMachines.srcs/sources_1/new/EX8_EdgeDetector.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EX8_EdgeDetector
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/Vivadoprojects/Tasks_2022-1_2022-2/EX8_VendingMachines/EX8_VendingMachines.srcs/sources_1/new/EX8_Judge.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EX8_Judge
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/Vivadoprojects/Tasks_2022-1_2022-2/EX8_VendingMachines/EX8_VendingMachines.srcs/sources_1/new/EX8_KeyInput.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EX8_KeyInput
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/Vivadoprojects/Tasks_2022-1_2022-2/EX8_VendingMachines/EX8_VendingMachines.srcs/sources_1/new/EX8_Result.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EX8_Result
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/Vivadoprojects/Tasks_2022-1_2022-2/EX8_VendingMachines/EX8_VendingMachines.srcs/sources_1/new/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing Verilog file "G:/Vivadoprojects/Tasks_2022-1_2022-2/EX8_VendingMachines/EX8_VendingMachines.srcs/sim_1/new/tb_EX8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_EX8
